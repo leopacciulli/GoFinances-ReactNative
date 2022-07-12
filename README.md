@@ -17,7 +17,7 @@ In Development
 <b>An application where you can control your finances, see the total inflows and outflows of your expenses.</b>
 <br>
 <br>
-<b>This project will be created with Expo Bare Workflow, with React Native using TypeScript, styled-components to style all the components, natives APIs, local async storage, navigation, forms and social login.</b>
+<b>This project will be created with Expo Bare Workflow, with React Native using TypeScript, styled-components to style all the components, natives APIs, local async storage, navigation, forms with React Hook Forms and social login with Google and Apple</b>
 
 <br>
 
@@ -26,3 +26,4 @@ ReactJS: https://pt-br.reactjs.org <br>
 TypeScript: https://www.typescriptlang.org <br>
 Expo: https://expo.dev <br>
 Styled-components: https://styled-components.com <br>
+React Hook Form: https://react-hook-form.com <br>
