@@ -27,3 +27,4 @@ TypeScript: https://www.typescriptlang.org <br>
 Expo: https://expo.dev <br>
 Styled-components: https://styled-components.com <br>
 React Hook Form: https://react-hook-form.com <br>
+React Navigation: https://reactnavigation.org <br>
