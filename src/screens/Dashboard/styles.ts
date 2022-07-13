@@ -91,3 +91,9 @@ export const TransactionsList = styled(
 })``;
 
 export const LogoutButton = styled(BorderlessButton)``;
+
+export const Loading = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;

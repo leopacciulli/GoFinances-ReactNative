@@ -1,3 +1,7 @@
+import 'react-native-gesture-handler';
+import 'intl';
+import 'intl/locale-data/jsonp/pt-BR';
+
 import React from 'react';
 import { LogBox } from 'react-native';
 import { ThemeProvider } from 'styled-components';
