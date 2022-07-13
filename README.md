@@ -8,7 +8,9 @@ In Development
 <br>
 
 <div align="center">
-<img src="./src/assets/bg.png" width="250">
+<img src="./src/assets/bg.png" width="200">
+<img src="./src/assets/bg2.png" width="200">
+<img src="./src/assets/bg3.png" width="200">
 </div>
 
 <br>
@@ -28,3 +30,4 @@ Expo: https://expo.dev <br>
 Styled-components: https://styled-components.com <br>
 React Hook Form: https://react-hook-form.com <br>
 React Navigation: https://reactnavigation.org <br>
+Victory Chart: https://formidable.com/open-source/victory/docs/native <br>
