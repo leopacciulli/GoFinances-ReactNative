@@ -2,7 +2,6 @@
 <br>
 GoFinances - with React Native
 <br>
-In Development
 </h1>
 
 <br>

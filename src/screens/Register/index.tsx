@@ -12,6 +12,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import uuid from 'react-native-uuid';
+import { useNavigation } from '@react-navigation/native';
 
 import {
   Container,
@@ -21,7 +22,6 @@ import {
   Fields,
   Types,
 } from './styles';
-import { useNavigation } from '@react-navigation/native';
 
 interface FormData {
   name: string;

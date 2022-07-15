@@ -5,6 +5,7 @@ import { ActivityIndicator } from 'react-native';
 import { useTheme } from 'styled-components/native';
 import { HighlightCard } from '../../components/HighlightCard';
 import { TransactionCard, TransactionCardProps } from '../../components/TransactionCard';
+import { useAuth } from '../../hooks/auth';
 
 import {
   Container,
@@ -43,7 +44,8 @@ export const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<DataListProps[]>([]);
   const [highlightData, setHighlightData] = useState<HighlightData>({} as HighlightData);
-
+  
+  const { signOut } = useAuth();
   const theme = useTheme();
 
   const getLastTransactionDate = (collection: DataListProps[], type: 'positive' | 'negative') => {
@@ -152,7 +154,7 @@ export const Dashboard = () => {
                 </User>
               </UserInfo>
 
-              <LogoutButton onPress={() => {}}>
+              <LogoutButton onPress={signOut}>
                 <Icon name='power' />
               </LogoutButton>
             </UserContainer>
